@@ -1,0 +1,40 @@
+server:
+  port: 8080
+
+
+########################################################
+# Spring Configuration
+########################################################
+spring:
+  profiles:
+    active: local
+    include: swagger
+  application:
+    name: com-insurance-demo
+  freemarker:
+    template-loader-path:
+      - "classpath:/freemarker"
+  cache:
+    type: redis
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/insurance?useLegacyDatetimeCode=false
+    username: root
+    password: qwerty123
+  jpa:
+    show-sql: true
+    hibernate:
+      use-new-id-generator-mappings: false
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate.jdbc.time_zone: UTC
+      hibernate.jdbc.batch_size: 10
+      hibernate.order_inserts: true
+      hibernate.order_updates: true
+      hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB

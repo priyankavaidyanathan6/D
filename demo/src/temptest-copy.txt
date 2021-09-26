@@ -1,0 +1,14 @@
+{"name":"ContractCreatedEvent","contractId":"1","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"2","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"3","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"4","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"5","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"6","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractCreatedEvent","contractId":"7","premium":100,"startDate":"2020-01-01"}
+{"name":"ContractTerminatedEvent","contractId":"1","terminationDate":"2020-02-29"}
+{"name":"ContractTerminatedEvent","contractId":"2","terminationDate":"2020-02-29"}
+{"name":"ContractTerminatedEvent","contractId":"3","terminationDate":"2020-02-29"}
+{"name":"ContractCreatedEvent","contractId":"8","premium":100,"startDate":"2020-03-01"}
+{"name":"ContractCreatedEvent","contractId":"9","premium":100,"startDate":"2020-03-01"}
+{"name":"ContractTerminatedEvent","contractId":"6","terminationDate":"2020-03-31"}
+{"name":"ContractTerminatedEvent","contractId":"7","terminationDate":"2020-03-31"}
